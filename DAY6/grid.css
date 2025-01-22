@@ -1,0 +1,40 @@
+.container{
+     display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px; 
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+    
+}
+.item{
+    border: 2px solid red;
+}
+.header{
+    grid-area: header;
+    background-color: red;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: cyan;
+}
+.main{
+    grid-area: main;
+    background-color: yellow;
+}
+.footer{
+    grid-area: footer;
+    background-color: brown;
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+    background-color: red;
+
+}
+.item1{
+    grid-column: 1/span 3;
+    border: 2px solid green;
+
+}

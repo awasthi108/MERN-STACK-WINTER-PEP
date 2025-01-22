@@ -1,0 +1,45 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.child{
+    border: 2px solid green;
+    height: 100px;
+}
+.destination-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #dddd;
+    padding: 10px;
+}
+
+.flex-parent{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    padding: 2px;
+    width: 200px;
+}
+.child1,.child2,.child3{
+    border: 2px solid red;
+    padding: 5px;
+}
+.child2{
+    flex-shrink: 2;
+}
+.child1,.child2{
+    flex-shrink: 3;
+}

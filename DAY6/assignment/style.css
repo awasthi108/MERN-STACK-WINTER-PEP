@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   color: #333;
+ }
+ 
+ header {
+   background-color: #333;
+   color: #fff;
+   padding: 1rem 0;
+ }
+ 
+ nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+ }
+ 
+ .logo {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+ 
+ .nav-links {
+   list-style: none;
+   display: flex;
+ }
+ 
+ .nav-links li {
+   margin-left: 20px;
+ }
+ 
+ .nav-links a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 1rem;
+ }
+ 
+ .nav-links a:hover {
+   color: #f4f4f4;
+   text-decoration: underline;
+ }
+ 
+ .hero {
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+   color: #fff;
+ }
+ 
+ .hero h1 {
+   font-size: 3rem;
+   margin-bottom: 10px;
+ }
+ 
+ .hero p {
+   font-size: 1.2rem;
+   margin-bottom: 20px;
+ }
+ 
+ .hero button {
+   padding: 10px 20px;
+   font-size: 1rem;
+   background-color: #ff6347;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .hero button:hover {
+   background-color: #ff4500;
+ }
+ 
+ footer {
+   text-align: center;
+   padding: 20px;
+   background-color: #333;
+   color: #fff;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+ }

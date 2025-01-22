@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relative-box2{
+            width: 100px;
+            height: 100px;
+            border: 2px solid green;
+        }
+        .absolute-parent{
+            width: 400px;
+            height: 300px;
+            border: 2px solid pink;
+
+        }
+        .absolute-box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid blue;
+            position: absolute;
+            top: 20px;
+        }
+        .error-box{
+            position: fixed;
+            top: 0px;
+        }
+        .sticky-box{
+            background-color: yellow;
+            color: red;
+            position: sticky;
+            offset: 5px;
+        }
+    </style>
+</head>
+<body style="height: 100vh;">
+    <!-- static position
+    <h1 style="color: red;">hello world</h1>
+    <div style="width: 100px; height: 100px; border: 2px solid red;">hello box2</div>
+
+    relative position-->
+
+    <!-- <p> relative para</p>
+    <div class="relative-box2">
+        relative box
+    </div>
+     --> 
+
+    <!-- <div class="absolute-parent">
+        <div class="absolute-box">
+            hello absolute box
+        </div>
+    </div> -->
+    <!--fixed position-->
+    <!-- <div class="error-box">
+        <h2 style="color: red; background-color: yellow;">pls try after some time</h2>
+    </div> -->
+
+    <!--sticky position: combination of fixed and relative-->
+    <div class="sticky-box">
+        hii i am sticy i will behave like relative and fi
+
+    </div>
+    <div style="height: 100px;">
+        <p>hello para</p>
+    </div>
+
+</body>
+</html>
+
+static--by default every element is static
+relative--relative to its original position
+absolute--relative to its nearest -parent
+fixed -  fixed
+sticky--fixed+relative
